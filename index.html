@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#100914">
+<title>For My Muskan ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&family=Parisienne&display=swap');
+:root{--bg:#0d0710;--ink:#fff7fb;--muted:#cdbbc8;--pink:#ff8fb3;--rose:#ff5e91;--glass:rgba(255,255,255,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 0,#321126 0,#120912 35%,#080509 100%);color:var(--ink);font-family:Inter,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:70px 70px;opacity:.08}
+section{min-height:100svh;padding:72px 20px;display:flex;align-items:center;justify-content:center;position:relative}
+.container{width:min(920px,100%);margin:auto}.center{text-align:center}
+.script{font-family:Parisienne,cursive;font-size:clamp(44px,13vw,88px);font-weight:400;line-height:1;color:#ffd3e1;text-shadow:0 0 35px rgba(255,112,161,.35)}
+h1,h2{font-family:"Cormorant Garamond",serif;font-weight:600}h1{font-size:clamp(48px,12vw,92px);margin:12px 0}h2{font-size:clamp(38px,9vw,64px);margin:0 0 16px}.sub{color:var(--muted);font-size:15px;line-height:1.8}
+button{border:0;color:#fff;background:linear-gradient(135deg,#ff6d9e,#bd3e72);padding:14px 22px;border-radius:999px;font-weight:600;box-shadow:0 12px 35px rgba(255,76,132,.22);cursor:pointer}
+#opening{min-height:100svh}.envelope{width:min(360px,90vw);height:235px;margin:30px auto;position:relative;perspective:1000px}.env{position:absolute;inset:0;background:#f4b8cb;border-radius:12px;box-shadow:0 25px 70px #0008}.env:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 49%,#df8fac 50% 51%,transparent 52%),linear-gradient(225deg,transparent 49%,#df8fac 50% 51%,transparent 52%);border-radius:12px}.flap{position:absolute;top:0;left:0;width:100%;height:58%;background:#f8c7d7;clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:.9s;z-index:3}.seal{position:absolute;z-index:4;left:50%;top:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:#b93565;display:grid;place-items:center;font-size:24px}.open .flap{transform:rotateX(180deg)}.open .seal{opacity:0}
+.scroll{margin-top:35px;font-size:12px;letter-spacing:3px;color:#bdaab7}.heart{position:fixed;z-index:2;font-size:18px;animation:float 7s linear infinite;opacity:.55;pointer-events:none}@keyframes float{from{transform:translateY(105vh) rotate(0);opacity:0}15%{opacity:.6}to{transform:translateY(-10vh) rotate(180deg);opacity:0}}
+.date{letter-spacing:5px;font-size:12px;color:#f3a8c2;margin-bottom:18px}.line{width:70px;height:1px;background:#d96b91;margin:25px auto}
+.letter{background:linear-gradient(135deg,rgba(255,255,255,.09),rgba(255,255,255,.035));border:1px solid rgba(255,255,255,.11);border-radius:28px;padding:30px;box-shadow:0 25px 70px #0005;line-height:1.9;color:#f3e8ee;font-family:"Cormorant Garamond",serif;font-size:21px}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin-top:30px}.photo{position:relative;border-radius:18px;overflow:hidden;min-height:240px;background:#21141d}.photo:nth-child(3n){transform:translateY(12px)}.photo img{width:100%;height:100%;min-height:240px;object-fit:cover;display:block;transition:transform .7s}.photo:hover img{transform:scale(1.04)}.caption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 13px;background:linear-gradient(transparent,#000b);font-size:12px}
+.timeline{margin-top:35px;border-left:1px solid #8e536b;padding-left:24px}.event{margin:0 0 30px}.event b{color:#ff9abd;font-size:12px;letter-spacing:2px}.event p{margin:6px 0;color:#d9cbd3;line-height:1.7}
+.player{margin:28px auto 0;max-width:480px;padding:22px;border-radius:26px;background:var(--glass);border:1px solid #ffffff12}.disc{width:100px;height:100px;border-radius:50%;margin:auto;background:radial-gradient(circle,#ffb1c9 0 8%,#7c294b 9% 11%,#f26c9c 12% 35%,#4a172c 36% 100%);box-shadow:0 0 35px #ff6e9a55;animation:spin 7s linear infinite;animation-play-state:paused}.playing .disc{animation-play-state:running}@keyframes spin{to{transform:rotate(360deg)}}audio{width:100%;margin-top:18px}.small{font-size:12px;color:#aa9ba5;margin-top:10px}
+.final{background:radial-gradient(circle at center,#3a1227 0,#0c070c 55%)}.final .big{font-family:"Cormorant Garamond",serif;font-size:clamp(36px,8vw,65px);line-height:1.12}.forever{font-family:Parisienne,cursive;font-size:clamp(45px,12vw,85px);color:#ffabc5;margin-top:22px}
+.reveal{opacity:0;transform:translateY(30px);transition:1s}.reveal.show{opacity:1;transform:none}
+@media(min-width:700px){.gallery{grid-template-columns:repeat(3,1fr)}.photo:nth-child(3n){transform:none}.photo:nth-child(4n){transform:translateY(14px)}}
+</style>
+</head>
+<body>
+<div id="hearts"></div>
+
+<section id="opening">
+  <div class="container center">
+    <div class="date">13 AUGUST 2026 · 13 SEPTEMBER 2026</div>
+    <div class="envelope" id="envelope">
+      <div class="env"></div><div class="flap"></div><div class="seal">❤️</div>
+    </div>
+    <div class="script">For My Muskan</div>
+    <p class="sub">I made a little corner of the internet for our first month.</p>
+    <button onclick="openLetter()">Open My Heart ❤️</button>
+    <div class="scroll">SCROLL SLOWLY ↓</div>
+  </div>
+</section>
+
+<section>
+<div class="container reveal">
+  <div class="center">
+    <div class="date">ONE MONTH · ONE STORY</div>
+    <h2>13 August gave me an “us”.</h2>
+    <div class="line"></div>
+    <p class="sub">One month may sound small… but somehow, you turned these days into memories I already want to keep forever.</p>
+  </div>
+  <div class="timeline">
+    <div class="event"><b>THE BEGINNING</b><p>Somewhere between ordinary days and ordinary conversations, you became someone I didn't want to be without.</p></div>
+    <div class="event"><b>THE LITTLE THINGS</b><p>The silly talks, the laughter, the tiny fights, the care, the random moments — those are the things that made “us” feel real.</p></div>
+    <div class="event"><b>TODAY</b><p>13 September. One month down. And I still look at you and think… how did I get this lucky? ❤️</p></div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container reveal">
+  <div class="center"><div class="date">OUR LITTLE GALLERY</div><h2>Moments I’d replay.</h2><p class="sub">Different places. Different days. Same two idiots. ❤️</p></div>
+  <div class="gallery">
+    <div class="photo"><img src="assets/memory-01.jpeg"><div class="caption">That sunset had nothing on you two. 🌅</div></div>
+    <div class="photo"><img src="assets/memory-02.jpeg"><div class="caption">Just us, somewhere in the middle of everything.</div></div>
+    <div class="photo"><img src="assets/memory-03.jpeg"><div class="caption">A quiet little moment I’d keep forever.</div></div>
+    <div class="photo"><img src="assets/memory-04.jpeg"><div class="caption">The kind of view that becomes a memory.</div></div>
+    <div class="photo"><img src="assets/memory-05.jpeg"><div class="caption">Even the candid ones are my favourites.</div></div>
+    <div class="photo"><img src="assets/memory-06.jpeg"><div class="caption">Close enough to forget everything else. 🫂</div></div>
+    <div class="photo"><img src="assets/memory-07.jpeg"><div class="caption">You + me = my favourite frame.</div></div>
+    <div class="photo"><img src="assets/memory-08.jpeg"><div class="caption">Some memories don't need a caption.</div></div>
+    <div class="photo"><img src="assets/memory-09.jpeg"><div class="caption">A little bit of us, captured forever.</div></div>
+    <div class="photo"><img src="assets/memory-10.jpeg"><div class="caption">And hopefully… many more to come. ♾️</div></div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container reveal center">
+  <div class="date">PRESS PLAY</div>
+  <h2>Our little soundtrack 🎵</h2>
+  <p class="sub">I kept the audio from the video you shared, so this page has a soundtrack from your surprise.</p>
+  <div class="player" id="player">
+    <div class="disc"></div>
+    <div style="margin-top:16px;font-family:'Cormorant Garamond',serif;font-size:24px">For Muskan ❤️</div>
+    <audio id="audio" controls preload="metadata">
+      <source src="assets/our-song.mp3" type="audio/mpeg">
+    </audio>
+    <div class="small">Tap play — browsers usually require the first tap before music can start.</div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container reveal">
+  <div class="center"><div class="date">A LETTER, NOT A PERFECT SPEECH</div><h2>Dear Muskan…</h2></div>
+  <div class="letter">
+    Sach bolu toh mujhe kabhi kabhi samajh nahi aata ki tumhare liye exactly kya likhun, kyunki jo feel karta hoon woh words se thoda bada lagta hai.
+    <br><br>
+    Tum meri life mein aayi aur pata hi nahi chala kab ordinary days special lagne lage. Tumhari smile, tumhari voice, tumhari care, tumhari chhoti-chhoti baatein — sab kuch mere liye matter karta hai.
+    <br><br>
+    Mujhe perfect story nahi chahiye. Mujhe bas humari real story chahiye — jisme hasi ho, thodi nok-jhok ho, kabhi stupid moments ho, kabhi serious talks ho, aur har baar ek doosre ko choose karne ki wajah ho.
+    <br><br>
+    Tumne jo effort mere liye kiya, uske liye thank you bolna honestly kaafi nahi hai. I hope tum hamesha samjho ki tum mere liye kitni special ho.
+    <br><br>
+    <b>Happy one month, meri Ladduuu. ❤️</b>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="container center reveal">
+  <div class="date">13.08.2026 → 13.09.2026</div>
+  <div class="big">One month down…<br>and I hope this is only the beginning.</div>
+  <div class="forever">Forever to go. ♾️</div>
+  <div class="line"></div>
+  <p class="sub">I love you, Muskan. ❤️</p>
+</div>
+</section>
+
+<script>
+function openLetter(){
+  document.getElementById('envelope').classList.add('open');
+  setTimeout(()=>document.getElementById('envelope').scrollIntoView({behavior:'smooth',block:'center'}),500);
+}
+const audio=document.getElementById('audio'), player=document.getElementById('player');
+audio.addEventListener('play',()=>player.classList.add('playing'));
+audio.addEventListener('pause',()=>player.classList.remove('playing'));
+
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')});
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(x=>observer.observe(x));
+
+function heart(){
+  const h=document.createElement('div');h.className='heart';h.textContent=['♥','♡','❤️','✦'][Math.floor(Math.random()*4)];
+  h.style.left=Math.random()*100+'vw';h.style.animationDuration=(5+Math.random()*5)+'s';
+  document.getElementById('hearts').appendChild(h);setTimeout(()=>h.remove(),10000);
+}
+setInterval(heart,900);
+</script>
+</body>
+</html>
